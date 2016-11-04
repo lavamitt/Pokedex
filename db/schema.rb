@@ -18,7 +18,7 @@ ActiveRecord::Schema.define(version: 20161104073515) do
     t.integer  "trainer_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.integer "health"
+    t.integer  "health"
   end
 
   create_table "trainers", force: :cascade do |t|
